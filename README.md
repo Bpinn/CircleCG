@@ -1,2 +1,2 @@
-# CircleCG
+# ComputerGraphics
 Code for generating circle 
