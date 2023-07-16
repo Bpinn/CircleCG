@@ -1,2 +1,2 @@
 # ComputerGraphics
-Code for generating circle 
+Lab works of Computer Graphics
