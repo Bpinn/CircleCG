@@ -3,7 +3,6 @@
 #include<math.h>
 #include<graphics.h>
 
-
 void translation(int *a, int *b){
 	int i,tx,ty,x[3],y[3];
 	printf("Enter the translation factor: ");
@@ -54,11 +53,6 @@ void fixed_point(int *a, int *b){
 	}
 
 
-
-
-
-
-
 int main(){
 	int gd=DETECT, gm,a[3],b[3],i,x;
 	initgraph(&gd,&gm,"C:\\TurboC3\\BGI");
@@ -86,7 +80,7 @@ int main(){
 	 if(x==3){
 		 fixed_point(a,b);
 	     }
-	outtextxy(100,300,"Kabir Poudel");
+	outtextxy(100,300,"Bipin Ghimire");
 	getch();
 	closegraph();
 	return 0;
